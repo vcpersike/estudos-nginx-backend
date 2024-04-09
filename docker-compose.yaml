@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  teste-api-go:
+   image: teste-api
+   ports:
+    - "5000:5000"
+  teste-api-rust:
+   image: teste-api-rust
+   ports:
+    - "5001:5001"
+
